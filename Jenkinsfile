@@ -26,9 +26,9 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh """
-                echo 'Deploying....'
+                echo 'Deploying....' 
                 echo '$GREETING'
-                sleep 10
+                # sleep 10
                 """
 
             }
